@@ -1,0 +1,193 @@
+{
+  "uid" : "c1f545080c40415a",
+  "name" : "test_login4",
+  "fullName" : "test_case.test_login.test_login.TestLogin#test_login4",
+  "historyId" : "0901adacca7ae0dbb61202c478bc3a0f",
+  "time" : {
+    "start" : 1649229523598,
+    "stop" : 1649229523598,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 12,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestLogin",
+    "time" : {
+      "start" : 1649229523597,
+      "stop" : 1649229523597,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestLogin::0",
+    "time" : {
+      "start" : 1649229523599,
+      "stop" : 1649229523599,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "tag",
+    "value" : "system"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.test_login"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-8LS2KV9"
+  }, {
+    "name" : "thread",
+    "value" : "14208-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_login.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "26483c0a0effecbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649229496458,
+        "stop" : 1649229496458,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5336a8fd59e736c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649229381685,
+        "stop" : 1649229381685,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e9fa96fb627b6e71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649228596596,
+        "stop" : 1649228596596,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "eeed71a5c106856e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649228487480,
+        "stop" : 1649228487480,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "eb3f17439e513c97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649228318561,
+        "stop" : 1649228318561,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b3d1244ccaafa511",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649228245615,
+        "stop" : 1649228245615,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "69dd75987c7392ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649228100440,
+        "stop" : 1649228100440,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fc372b301819dbc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649227833964,
+        "stop" : 1649227833964,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "94b8b5eb5bc6ef0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649227677679,
+        "stop" : 1649227677679,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9ddeed0d7ba0bd7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649227354397,
+        "stop" : 1649227354397,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b0dde7a981963daa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649227275570,
+        "stop" : 1649227275570,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e3f9b4213d1411d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 1 == 2",
+      "time" : {
+        "start" : 1649227216025,
+        "stop" : 1649227216025,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "system", "run(order=1)" ]
+  },
+  "source" : "c1f545080c40415a.json",
+  "parameterValues" : [ ]
+}

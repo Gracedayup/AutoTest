@@ -1,0 +1,111 @@
+[ {
+  "uid" : "56c941f56bcf6350",
+  "name" : "test_login[1-args0]",
+  "time" : {
+    "start" : 1649232850467,
+    "stop" : 1649232850467,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bb7f2c8b330aae78",
+  "name" : "test_login2[args0]",
+  "time" : {
+    "start" : 1649223696852,
+    "stop" : 1649223696984,
+    "duration" : 132
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c4820956a12842d",
+  "name" : "测试登录功能正常",
+  "time" : {
+    "start" : 1649317132203,
+    "stop" : 1649317132298,
+    "duration" : 95
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "efec7bb69f3c0e05",
+  "name" : "test_login2[login_data1]",
+  "time" : {
+    "start" : 1649317132397,
+    "stop" : 1649317132474,
+    "duration" : 77
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f94e9cb10caa12ea",
+  "name" : "test_login2",
+  "time" : {
+    "start" : 1649314432787,
+    "stop" : 1649314432787,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "380dc2aee9c8e89b",
+  "name" : "test_login1[args0]",
+  "time" : {
+    "start" : 1649229523602,
+    "stop" : 1649229523695,
+    "duration" : 93
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1f545080c40415a",
+  "name" : "test_login4",
+  "time" : {
+    "start" : 1649229523598,
+    "stop" : 1649229523598,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54342c4d417530c3",
+  "name" : "test_login2[login_data0]",
+  "time" : {
+    "start" : 1649317132312,
+    "stop" : 1649317132392,
+    "duration" : 80
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3d7a653885d20e2",
+  "name" : "test_login[2-args0]",
+  "time" : {
+    "start" : 1649232850802,
+    "stop" : 1649232850802,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3fcd44baaeb285a4",
+  "name" : "test_login3",
+  "time" : {
+    "start" : 1649229523706,
+    "stop" : 1649229523706,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ade560e3e4dcfc1",
+  "name" : "test_login[3-args0]",
+  "time" : {
+    "start" : 1649232850831,
+    "stop" : 1649232850831,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

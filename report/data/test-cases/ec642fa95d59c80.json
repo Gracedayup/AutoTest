@@ -1,0 +1,66 @@
+{
+  "uid" : "ec642fa95d59c80",
+  "name" : "test_login2",
+  "fullName" : "test_case.test_login.test_login.TestLogin#test_login2",
+  "historyId" : "b2732eef22232c85ab25009b2a56b184",
+  "time" : {
+    "start" : 1649229496559,
+    "stop" : 1649229496559,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: 跳过",
+  "statusTrace" : "('D:\\\\workspaces\\\\interface_automation_test\\\\test_case\\\\test_login\\\\test_login.py', 25, 'Skipped: 跳过')",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='跳过')"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.test_login"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-8LS2KV9"
+  }, {
+    "name" : "thread",
+    "value" : "13808-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_login.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip(reason='跳过')", "smoke" ]
+  },
+  "source" : "ec642fa95d59c80.json",
+  "parameterValues" : [ ]
+}

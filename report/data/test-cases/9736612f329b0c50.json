@@ -1,0 +1,91 @@
+{
+  "uid" : "9736612f329b0c50",
+  "name" : "test_login2[login_data0]",
+  "fullName" : "test_case.test_login.test_login.TestLogin#test_login2",
+  "historyId" : "d643ae96cc27c2726666d7fc0e6e18ed",
+  "time" : {
+    "start" : 1649315445341,
+    "stop" : 1649315445341,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "start_fuc",
+    "time" : {
+      "start" : 1649315445340,
+      "stop" : 1649315445340,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "start_fuc::0",
+    "time" : {
+      "start" : 1649315445352,
+      "stop" : 1649315445352,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case.test_login"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-8LS2KV9"
+  }, {
+    "name" : "thread",
+    "value" : "23252-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_login.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "login_data",
+    "value" : "{'case_id': 'login001', 'description': '使用正确的账号密码登录', 'method': 'post', 'request': '{\"userCode\":\"sunny\",\"password\":\"7f3845816cd6f12cdf7523c2af36ed0f\"}', 'expected': 200, 'result': None}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9736612f329b0c50.json",
+  "parameterValues" : [ "{'case_id': 'login001', 'description': '使用正确的账号密码登录', 'method': 'post', 'request': '{\"userCode\":\"sunny\",\"password\":\"7f3845816cd6f12cdf7523c2af36ed0f\"}', 'expected': 200, 'result': None}" ]
+}

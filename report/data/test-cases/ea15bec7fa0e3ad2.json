@@ -1,0 +1,64 @@
+{
+  "uid" : "ea15bec7fa0e3ad2",
+  "name" : "test_login[args0]",
+  "fullName" : "test_case.test_login.test_login.TestLogin#test_login",
+  "historyId" : "c91bb41f8949b55b3de432f46a2d66d2",
+  "time" : {
+    "start" : 1649230503106,
+    "stop" : 1649230503192,
+    "duration" : 86
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.test_login"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-8LS2KV9"
+  }, {
+    "name" : "thread",
+    "value" : "21792-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_login.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "args",
+    "value" : "{'login': {'name': '正常登录', 'url': 'http://192.168.50.49:6001/smw/UAC/CPLogin', 'method': 'post', 'headers': {'Content-Type': 'application/json'}, 'params': {'userCode': 'sunny', 'password': '7f3845816cd6f12cdf7523c2af36ed0f'}, 'code': 0}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "ea15bec7fa0e3ad2.json",
+  "parameterValues" : [ "{'login': {'name': '正常登录', 'url': 'http://192.168.50.49:6001/smw/UAC/CPLogin', 'method': 'post', 'headers': {'Content-Type': 'application/json'}, 'params': {'userCode': 'sunny', 'password': '7f3845816cd6f12cdf7523c2af36ed0f'}, 'code': 0}}" ]
+}

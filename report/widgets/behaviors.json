@@ -1,0 +1,15 @@
+{
+  "total" : 11,
+  "items" : [ {
+    "uid" : "d487fc824007c7b9eeabb18898894f7b",
+    "name" : "智能交通",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

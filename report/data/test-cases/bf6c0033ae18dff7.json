@@ -1,0 +1,128 @@
+{
+  "uid" : "bf6c0033ae18dff7",
+  "name" : "测试登录功能正常",
+  "fullName" : "test_case.test_login.test_login.TestLogin#test_login",
+  "historyId" : "c91bb41f8949b55b3de432f46a2d66d2",
+  "time" : {
+    "start" : 1649311565452,
+    "stop" : 1649311565541,
+    "duration" : 89
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "start_fuc",
+    "time" : {
+      "start" : 1649311565449,
+      "stop" : 1649311565449,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤：测试登录功能",
+      "time" : {
+        "start" : 1649311565453,
+        "stop" : 1649311565541,
+        "duration" : 88
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "args",
+        "value" : "{'login': {'name': '正常登录', 'url': 'http://192.168.50.49:6001/smw/UAC/CPLogin', 'method': 'post', 'headers': {'Content-Type': 'application/json'}, 'params': {'userCode': 'sunny', 'password': '7f3845816cd6f12cdf7523c2af36ed0f'}, 'code': 0}}"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "start_fuc::0",
+    "time" : {
+      "start" : 1649311565543,
+      "stop" : 1649311565543,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录"
+  }, {
+    "name" : "feature",
+    "value" : "智能交通"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.test_login"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-8LS2KV9"
+  }, {
+    "name" : "thread",
+    "value" : "26924-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_login.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "args",
+    "value" : "{'login': {'name': '正常登录', 'url': 'http://192.168.50.49:6001/smw/UAC/CPLogin', 'method': 'post', 'headers': {'Content-Type': 'application/json'}, 'params': {'userCode': 'sunny', 'password': '7f3845816cd6f12cdf7523c2af36ed0f'}, 'code': 0}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "bf6c0033ae18dff7.json",
+  "parameterValues" : [ "{'login': {'name': '正常登录', 'url': 'http://192.168.50.49:6001/smw/UAC/CPLogin', 'method': 'post', 'headers': {'Content-Type': 'application/json'}, 'params': {'userCode': 'sunny', 'password': '7f3845816cd6f12cdf7523c2af36ed0f'}, 'code': 0}}" ]
+}

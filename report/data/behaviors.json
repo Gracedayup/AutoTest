@@ -1,0 +1,200 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_login2[args0]",
+    "uid" : "bb7f2c8b330aae78",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649223696852,
+      "stop" : 1649223696984,
+      "duration" : 132
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'login': {'name': '正常登录', 'url': 'http://192.168.50.49:6001/smw/UAC/CPLogin', 'method': 'post', 'headers': {'Content-Type': 'application/json'}, 'params': {'userCode': 'sunny', 'password': '7f3845816cd6f12cdf7523c2af36ed0f'}, 'code': 0}}" ]
+  }, {
+    "name" : "test_login4",
+    "uid" : "c1f545080c40415a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649229523598,
+      "stop" : 1649229523598,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 12,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_login1[args0]",
+    "uid" : "380dc2aee9c8e89b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649229523602,
+      "stop" : 1649229523695,
+      "duration" : 93
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 18,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'login': {'name': '正常登录', 'url': 'http://192.168.50.49:6001/smw/UAC/CPLogin', 'method': 'post', 'headers': {'Content-Type': 'application/json'}, 'params': {'userCode': 'sunny', 'password': '7f3845816cd6f12cdf7523c2af36ed0f'}, 'code': 0}}" ]
+  }, {
+    "name" : "test_login3",
+    "uid" : "3fcd44baaeb285a4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649229523706,
+      "stop" : 1649229523706,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 14,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_login[1-args0]",
+    "uid" : "56c941f56bcf6350",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1649232850467,
+      "stop" : 1649232850467,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'login': {'name': '正常登录', 'url': 'http://192.168.50.49:6001/smw/UAC/CPLogin', 'method': 'post', 'headers': {'Content-Type': 'application/json'}, 'params': {'userCode': 'sunny', 'password': '7f3845816cd6f12cdf7523c2af36ed0f'}, 'code': 0}}", "'1'" ]
+  }, {
+    "name" : "test_login[2-args0]",
+    "uid" : "e3d7a653885d20e2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1649232850802,
+      "stop" : 1649232850802,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'login': {'name': '正常登录', 'url': 'http://192.168.50.49:6001/smw/UAC/CPLogin', 'method': 'post', 'headers': {'Content-Type': 'application/json'}, 'params': {'userCode': 'sunny', 'password': '7f3845816cd6f12cdf7523c2af36ed0f'}, 'code': 0}}", "'2'" ]
+  }, {
+    "name" : "test_login[3-args0]",
+    "uid" : "7ade560e3e4dcfc1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1649232850831,
+      "stop" : 1649232850831,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ "{'login': {'name': '正常登录', 'url': 'http://192.168.50.49:6001/smw/UAC/CPLogin', 'method': 'post', 'headers': {'Content-Type': 'application/json'}, 'params': {'userCode': 'sunny', 'password': '7f3845816cd6f12cdf7523c2af36ed0f'}, 'code': 0}}", "'3'" ]
+  }, {
+    "name" : "test_login2",
+    "uid" : "f94e9cb10caa12ea",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1649314432787,
+      "stop" : 1649314432787,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 21,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "智能交通",
+    "children" : [ {
+      "name" : "登录",
+      "children" : [ {
+        "name" : "测试登录功能正常",
+        "uid" : "2c4820956a12842d",
+        "parentUid" : "8fac551a64a6b31d1670230dbe081dec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649317132203,
+          "stop" : 1649317132298,
+          "duration" : 95
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 65,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'login': {'name': '正常登录', 'url': 'http://192.168.50.49:6001/smw/UAC/CPLogin', 'method': 'post', 'headers': {'Content-Type': 'application/json'}, 'params': {'userCode': 'sunny', 'password': '7f3845816cd6f12cdf7523c2af36ed0f'}, 'code': 0}}" ]
+      } ],
+      "uid" : "8fac551a64a6b31d1670230dbe081dec"
+    } ],
+    "uid" : "d487fc824007c7b9eeabb18898894f7b"
+  }, {
+    "name" : "test_login2[login_data0]",
+    "uid" : "54342c4d417530c3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649317132312,
+      "stop" : 1649317132392,
+      "duration" : 80
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 11,
+    "retriesStatusChange" : true,
+    "parameters" : [ "{'case_id': 'login001', 'description': '使用正确的账号密码登录', 'url': 'http://192.168.50.49:6001/smw/UAC/CPLogin', 'method': 'post', 'request': '{\"userCode\":\"sunny\",\"password\":\"7f3845816cd6f12cdf7523c2af36ed0f\"}', 'expected': 0, 'result': None}" ]
+  }, {
+    "name" : "test_login2[login_data1]",
+    "uid" : "efec7bb69f3c0e05",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649317132397,
+      "stop" : 1649317132474,
+      "duration" : 77
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 11,
+    "retriesStatusChange" : true,
+    "parameters" : [ "{'case_id': 'login002', 'description': '使用错误的密码登录', 'url': 'http://192.168.50.49:6001/smw/UAC/CPLogin', 'method': 'post', 'request': '{\"userCode\":\"sunny\",\"password\":\"7f3845816cd6f12cd1f7523c2af36ed0f\"}', 'expected': 11000, 'result': None}" ]
+  } ]
+}

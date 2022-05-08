@@ -1,0 +1,85 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "AttributeError: 'TestLogin' object has no attribute 'param'",
+      "children" : [ {
+        "name" : "test_login[1-args0]",
+        "uid" : "56c941f56bcf6350",
+        "parentUid" : "a5e557481a78ee3215dcc33f2ee06098",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649232850467,
+          "stop" : 1649232850467,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'login': {'name': '正常登录', 'url': 'http://192.168.50.49:6001/smw/UAC/CPLogin', 'method': 'post', 'headers': {'Content-Type': 'application/json'}, 'params': {'userCode': 'sunny', 'password': '7f3845816cd6f12cdf7523c2af36ed0f'}, 'code': 0}}", "'1'" ]
+      }, {
+        "name" : "test_login[2-args0]",
+        "uid" : "e3d7a653885d20e2",
+        "parentUid" : "a5e557481a78ee3215dcc33f2ee06098",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649232850802,
+          "stop" : 1649232850802,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'login': {'name': '正常登录', 'url': 'http://192.168.50.49:6001/smw/UAC/CPLogin', 'method': 'post', 'headers': {'Content-Type': 'application/json'}, 'params': {'userCode': 'sunny', 'password': '7f3845816cd6f12cdf7523c2af36ed0f'}, 'code': 0}}", "'2'" ]
+      }, {
+        "name" : "test_login[3-args0]",
+        "uid" : "7ade560e3e4dcfc1",
+        "parentUid" : "a5e557481a78ee3215dcc33f2ee06098",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649232850831,
+          "stop" : 1649232850831,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'login': {'name': '正常登录', 'url': 'http://192.168.50.49:6001/smw/UAC/CPLogin', 'method': 'post', 'headers': {'Content-Type': 'application/json'}, 'params': {'userCode': 'sunny', 'password': '7f3845816cd6f12cdf7523c2af36ed0f'}, 'code': 0}}", "'3'" ]
+      } ],
+      "uid" : "a5e557481a78ee3215dcc33f2ee06098"
+    }, {
+      "name" : "_pytest.fixtures.FixtureLookupError: ('login_data', <FixtureRequest for <Function test_login2>>)",
+      "children" : [ {
+        "name" : "test_login2",
+        "uid" : "f94e9cb10caa12ea",
+        "parentUid" : "09be33012d7659f830ca5ca11dae55f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649314432787,
+          "stop" : 1649314432787,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 21,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "09be33012d7659f830ca5ca11dae55f7"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

@@ -1,0 +1,271 @@
+{
+  "uid" : "f94e9cb10caa12ea",
+  "name" : "test_login2",
+  "fullName" : "test_case.test_login.test_login.TestLogin#test_login2",
+  "historyId" : "b2732eef22232c85ab25009b2a56b184",
+  "time" : {
+    "start" : 1649314432787,
+    "stop" : 1649314432787,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "_pytest.fixtures.FixtureLookupError: ('login_data', <FixtureRequest for <Function test_login2>>)",
+  "statusTrace" : "file D:\\workspaces\\interface_automation_test\\test_case\\test_login\\test_login.py, line 38\n      def test_login2(self, login_data):\nE       fixture 'login_data' not found\n>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, extra, include_metadata_in_junit_xml, metadata, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, start_fuc, testrun_uid, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory, worker_id\n>       use 'pytest --fixtures [testpath]' for help on them.\n\nD:\\workspaces\\interface_automation_test\\test_case\\test_login\\test_login.py:38",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 21,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "start_fuc",
+    "time" : {
+      "start" : 1649314432788,
+      "stop" : 1649314432788,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "start_fuc::0",
+    "time" : {
+      "start" : 1649314432790,
+      "stop" : 1649314432791,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case.test_login"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-8LS2KV9"
+  }, {
+    "name" : "thread",
+    "value" : "4772-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_login.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9c0740bd5007f8d7",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('login_data', <FixtureRequest for <Function test_login2>>)",
+      "time" : {
+        "start" : 1649314249581,
+        "stop" : 1649314249581,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f9776e2df46cd024",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649236861705,
+        "stop" : 1649236861705,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d253d395644c7c80",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过",
+      "time" : {
+        "start" : 1649229523700,
+        "stop" : 1649229523700,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ec642fa95d59c80",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过",
+      "time" : {
+        "start" : 1649229496559,
+        "stop" : 1649229496559,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1d63741ef01ab05e",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过",
+      "time" : {
+        "start" : 1649229381786,
+        "stop" : 1649229381786,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ad70c6b7f23018b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649229205311,
+        "stop" : 1649229205311,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "45de51297cd94570",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649229132823,
+        "stop" : 1649229132823,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "43dbac7944ac61ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649229084361,
+        "stop" : 1649229084361,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8fcaf1ad17a719bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649228596701,
+        "stop" : 1649228596701,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b6a5349eaaa337cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649228487585,
+        "stop" : 1649228487585,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "750f3dd0daf8e629",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649228318650,
+        "stop" : 1649228318650,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7420bb12e5f38326",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649228245609,
+        "stop" : 1649228245609,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7771150c48a5420d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649228100425,
+        "stop" : 1649228100426,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "4c7a7f1baa4785c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649227833959,
+        "stop" : 1649227833959,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7192bbd9b1f31449",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649227677668,
+        "stop" : 1649227677668,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b56343a55a1066a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649227354385,
+        "stop" : 1649227354385,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5308b27a2cb1c322",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649227275351,
+        "stop" : 1649227275351,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "88f5b8115c319f0f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649227215792,
+        "stop" : 1649227215792,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b0d3dcc39a2ff301",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 1 == 2",
+      "time" : {
+        "start" : 1649227162852,
+        "stop" : 1649227162852,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b3b06bd3babbacf2",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 1 == 2",
+      "time" : {
+        "start" : 1649225657704,
+        "stop" : 1649225657704,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "34ed8cdce7ff2d9d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 1 == 2",
+      "time" : {
+        "start" : 1649225636625,
+        "stop" : 1649225636625,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f94e9cb10caa12ea.json",
+  "parameterValues" : [ ]
+}

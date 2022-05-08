@@ -1,0 +1,10 @@
+pytest
+pytest-xdist
+pytest-ordering
+pytest-rerunfailures
+pytest-html
+allure-pytest
+assertpy
+jsonschema
+mock
+pymysql
