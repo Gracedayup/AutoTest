@@ -45,6 +45,6 @@ class GenerateFile(object):
 
 
 if __name__ == '__main__':
-    file = GenerateFile("0.1", "MB", "pdf")
+    file = GenerateFile("5", "MB", "pdf")
     file_name = file.gen_file()
     print(f"文件路径为:", os.path.join(os.path.dirname(os.path.realpath(__file__)), file_name))
