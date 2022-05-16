@@ -1,11 +1,11 @@
 # 测试用例1
 -
   login:
-    name: "正常登录"
-    url: http://192.168.50.49:6001/smw/UAC/CPLogin
+    name: "登录-验证码已过期"
+    url: http://10.1.1.41:8080/jugo-account-api/login
     method: post
     headers:
       Content-Type: application/json
     params:
-      {userCode: sunny,password: 7f3845816cd6f12cdf7523c2af36ed0f}
+      {captchaCode: "9577", password: "Aa123456", username: "平台用户", uuid: "2b3fa1767773475598773c2e7e2e1fa5"}
     code: 0

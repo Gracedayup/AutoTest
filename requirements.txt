@@ -8,3 +8,5 @@ assertpy
 jsonschema
 mock
 pymysql
+requests
+PyYAML
