@@ -10,3 +10,6 @@ mock
 pymysql
 requests
 PyYAML
+pytesseract
+Pillow
+paramiko
