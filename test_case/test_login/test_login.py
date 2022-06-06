@@ -32,5 +32,3 @@ class TestLogin:
         assert result.json()['codeRemark'] == "成功"
         assert assertpy.assert_that(result.json()['codeRemark']).is_type_of(str)
 
-if __name__ == '__main__':
-    pytest.main(['-s'])
