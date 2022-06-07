@@ -1,11 +1,15 @@
 # 测试用例1
--
-  login:
-    name: "登录-验证码已过期"
-    url: http://10.1.1.41:8080/jugo-account-api/login
-    method: post
-    headers:
-      Content-Type: application/json
-    params:
-      {captchaCode: "9577", password: "Aa123456", username: "平台用户", uuid: "2b3fa1767773475598773c2e7e2e1fa5"}
-    code: 0
+login:
+  name: "第三方登录-正确用户名和密码"
+  url: /thirdparty/user/auth
+  method: post
+  headers:
+    Content-Type: application/json
+  params:
+    {
+      orignService: "jugo-flow",
+      password: "admin123456",
+      username: "admin"
+    }
+
+

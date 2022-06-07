@@ -26,8 +26,4 @@ class GetConfig(object):
         return value
 
 
-if __name__ == '__main__':
-    login_config = GetConfig()
-    config_value = login_config.get_value("login.ini", "login", "username")
-    print(config_value)
 
